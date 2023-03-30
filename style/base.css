@@ -1,0 +1,9 @@
+:root {
+    --background-calculadora: #FFFFFF;
+    --cor-fonte-primaria: #FFAFA0;
+    --cor-botao: #FFE6E2    ;
+    --cor-botao-padrao: #83878B;
+    --cor-botao-calculadora: #FFCDC4;
+    --cor-botao-operadores: #EA9F96;
+    --cor-brackground: linear-gradient(#EA9F96 , #FFFFFF);
+}
