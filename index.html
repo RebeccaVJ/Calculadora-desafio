@@ -13,20 +13,15 @@
 </head>
 
 <body>
-    <main class="conteudo-principal">
-        <form action="" class="calculadora">
-            <fieldset class="resultado"></fieldset>
-            <fieldset class="operadores"></fieldset>
-        </form>
-    </main>
+    <main class="principal">
+        <form action="" class="principal-calculadora">
+            <fieldset class="principal__calculadora-operacao">
+                <output class="principal__calculadora-resultado">800</output>
+                <span class="calculadora__resultado-container__valores-inputados">5 + 8 + 2</span>
 
-    <main>
-        <form action="">
-            <fieldset>
-                <output>8000</output>
-                <span>10 + 11 - 2</span>
             </fieldset>
-            <fieldset>
+
+            <fieldset class="operadores">
                 <input type="button" value="C" />
                 <input type="button" value="+/-" />
                 <input type="button" value="&" />
@@ -49,6 +44,7 @@
             </fieldset>
         </form>
     </main>
+
 </body>
 
 </html>
